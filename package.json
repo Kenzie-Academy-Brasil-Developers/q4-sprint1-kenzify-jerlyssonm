@@ -1,0 +1,26 @@
+{
+  "name": "q4-sprint1-kenzify-jerlyssonm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Kenzie-Academy-Brasil-Developers/q4-sprint1-kenzify-jerlyssonm.git",
+  "author": "jerlyssonm <jerlyssonm@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "dev": "nodemon --experimental-specifier-resolution=node src/server.js"
+  },
+  "devDependencies": {
+    "ts-node": "^10.7.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.3"
+  }
+}
